@@ -19,7 +19,7 @@ class Post:
 
     def json(self):
         return {
-            'id': self._id,
+            '_id': self._id,
             'blog_id': self.blog_id,
             'author': self.author,
             'content': self.content,
